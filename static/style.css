@@ -1,0 +1,24 @@
+.alert_box{
+	display: none;
+}
+
+h2 {
+	font-size: 30px;
+	/* line-height: 100px; */
+	position: relative;
+	/* float: right; */
+	/* margin-right: 115px; */
+	text-transform: uppercase;
+	/* color: #f00; */
+  }
+  h2::after {
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+	display: block;
+	content: 'News Classfier';
+	transform: scaleY(-1);
+	opacity: .3;
+  }
