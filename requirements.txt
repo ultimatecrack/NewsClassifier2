@@ -11,4 +11,4 @@ certifi
 chardet
 click
 cymem
-en-core-web-sm==3.0.0
+en-core-web-sm
