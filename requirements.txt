@@ -4,4 +4,11 @@ Flask
 pandas
 scikit-learn
 spacy
-en-core-web-sm
+anyascii
+blis
+catalogue
+certifi
+chardet
+click
+cymem
+en-core-web-sm==3.0.0
