@@ -1,7 +1,7 @@
-beautifulsoup4==4.9.3
-contractions==0.0.48
-Flask==1.1.2
-pandas==1.2.3
+beautifulsoup4
+contractions
+Flask
+pandas
 scikit-learn
 spacy
 en-core-web-sm
