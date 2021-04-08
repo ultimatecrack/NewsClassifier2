@@ -1,6 +1,7 @@
 beautifulsoup4
 contractions
 Flask
+gunicorn
 pandas
 scikit-learn
 spacy
@@ -11,3 +12,4 @@ certifi
 chardet
 click
 cymem
+Werkzeug
