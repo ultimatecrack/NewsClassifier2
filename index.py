@@ -13,9 +13,11 @@ import spacy
 
 app = Flask(__name__)
 cat_map = {0:'sport', 1:'entertainment', 2:'business', 3:'politics', 4:'tech'}
+
 def make_to_base(x):
     x_list = []
-    nlp = spacy.load('en_core_web_sm')
+#     nlp = spacy.load('en_core_web_sm')
+    nlp = joblib.load('en_core_web_sm')
     doc = nlp(x)
     
     for token in doc:
